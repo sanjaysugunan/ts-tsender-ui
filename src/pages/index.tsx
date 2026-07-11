@@ -6,7 +6,6 @@ const Home: NextPage = () => {
   return (
     <div className="min-h-screen bg-[#050816]">
             <Header />
-
             <main className="px-6 py-12">
                 <AirdropForm />
             </main>
