@@ -100,8 +100,7 @@ export default function AirdropForm() {
                     <label
                         htmlFor="token"
                         className="mb-2 block text-sm font-medium text-gray-300"
-                    >
-                        Token Address
+                    >Token Address
                     </label>
 
                     <input

@@ -9,20 +9,8 @@
         uint256 totalAmount
     )
     ```
-4. Deploy to fleek
+4. e2e testing
+   1. when we connect, we see the form 
+   2. When disconnected, we don't
+5. Deploy to fleek
 
-My recommendation for the build order
-
-Now that the wallet connection is done, I'd work in this order:
-
-✅ Wallet connect (already done)
-✅ Install Tailwind
-Build the page layout
-Token address input
-Recipient list input
-Amount list input
-Parse CSV/text into arrays
-Calculate totalAmount
-Token approval
-Call airdropERC20
-Show transaction status and success/error messages
